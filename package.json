@@ -4,12 +4,13 @@
   "description": "ULR shortener website ",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "npm run index.js"
   },
   "author": "aayush gurung",
   "license": "ISC",
   "dependencies": {
     "express": "^4.19.2",
-    "mongoose": "^8.4.0"
+    "mongoose": "^8.4.0",
+    "short-unique-id": "^5.2.0"
   }
 }
